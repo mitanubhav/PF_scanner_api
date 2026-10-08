@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                  /* Output JavaScript version */
+    "module": "commonjs",                /* Set module system for imports */
+   // "moduleResolution": "commonjs",      /* How modules get found */
+    "outDir": "./dist",                  /* Where compiled JS files go */
+    "rootDir": "./src",                  /* Location of source TS files */
+    "strict": true,                      /* Enable all strict type-checking options */
+    "esModuleInterop": true,             /* Better compatibility with CommonJS modules */
+    "skipLibCheck": true ,
+     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true                /* Skip type checking of declaration files (.d.ts) */
+  },
+  "include": ["src/**/*"],               /* Files TypeScript should look at */
+  "exclude": ["node_modules", "dist"]    /* Files TypeScript should ignore */
+}
